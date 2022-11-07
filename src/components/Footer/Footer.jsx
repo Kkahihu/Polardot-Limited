@@ -45,9 +45,13 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6 footer-links">
                             <h4>Follow Us</h4>
                             <div className="social-links d-flex">
+                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                 <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
+                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                 <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
+                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                 <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
+                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                 <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
                             </div>
                         </div>
