@@ -29,6 +29,7 @@ const Products = () => {
                                <li><i className="bi bi-check"></i> Share Results Instantly.</li>
                            </ul>
                            <div className="text-center">
+                               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
                            </div>
                        </div>
