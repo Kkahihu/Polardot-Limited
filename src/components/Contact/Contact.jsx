@@ -13,7 +13,9 @@ const Contact = () => {
                     </div>
 
                     <div className="mb-3">
-                        <iframe style={{border:0, width: '100%', height: '350px'}} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                        {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
+                        <iframe style={{border:0, width: '100%', height: '350px'}} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                                allowFullScreen></iframe>
                     </div>
                      {/*End Google Maps*/}
 
@@ -67,7 +69,8 @@ const Contact = () => {
 
                     </div>
 
-                    <form action="forms/contact.php" method="post" role="form" className="php-email-form p-3 p-md-4" netlify>
+                    {/* eslint-disable-next-line jsx-a11y/no-redundant-roles */}
+                    <form action="#" method="post" role="form" className="php-email-form p-3 p-md-4" netlify>
                         <div className="row">
                             <div className="col-xl-6 form-group">
                                 <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
