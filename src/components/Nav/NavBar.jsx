@@ -16,14 +16,16 @@ const NavBar = () => {
                               {/*<h1>Yummy<span>.</span></h1>*/}
                     </a>
 
-                    <nav id="navbar" className="navbar">
-                        <ul>
-                            <li><a href="#hero">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#menu">Services</a></li>
-                            <li><a href="#events">Packages</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
+                    <nav id="navbar" className="navbar navbar-expand-lg">
+                        <div className="collapse navbar-collapse">
+                            <ul className="navbar-nav">
+                                <li className="nav-item"><a class="nav-link active" aria-current="page" href="#hero">Home</a></li>
+                                <li className="nav-item"><a class="nav-link"  href="#about">About</a></li>
+                                <li className="nav-item"><a class="nav-link"  href="#menu">Services</a></li>
+                                <li className="nav-item"><a class="nav-link"  href="#events">Packages</a></li>
+                                <li className="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
                     </nav>
                      {/*.navbar */}
 
