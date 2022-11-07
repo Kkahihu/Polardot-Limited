@@ -16,6 +16,7 @@ const WhyUS = () => {
                                     Polardot is a Geospatial and ICT consulting company based in Nairobi, Kenya. We specialize in using space technologies for location intelligence, location data analytics, mapping, photogrammetry, remote sensing and cloud-based geospatial software development.
                                 </p>
                                 <div className="text-center">
+                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                     <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
                                 </div>
                             </div>
