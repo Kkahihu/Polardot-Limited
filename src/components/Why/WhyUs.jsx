@@ -13,7 +13,7 @@ const WhyUS = () => {
                             <div className="why-box">
                                 <h3>Why Choose Polardot?</h3>
                                 <p>
-                                    Polardot is a Geospatial and ICT consulting company based in Nairobi, Kenya. We specialize in using space technologies for location intelligence, location data analytics, mapping, photogrammetry, remote sensing and cloud-based geospatial software development.
+                                    Our goal is to create cost-effective, easy to use, and sustainable Geo-IT solutions which have a positive impact across both communities and businesses in Africa.
                                 </p>
                                 <div className="text-center">
                                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -29,8 +29,8 @@ const WhyUS = () => {
                                 <div className="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                                     <div className="icon-box d-flex flex-column justify-content-center align-items-center">
                                         <i className="bi bi-clipboard-data"></i>
-                                        <h4>Corporis voluptates officia eiusmod</h4>
-                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                        <h4>Data Collection</h4>
+                                        <p>We integrate location data from a variety of sources such as autonomous drones, earth observation satellite imagery etc </p>
                                     </div>
                                 </div>
                                  {/*End Icon Box */}
@@ -38,8 +38,8 @@ const WhyUS = () => {
                                 <div className="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                                     <div className="icon-box d-flex flex-column justify-content-center align-items-center">
                                         <i className="bi bi-gem"></i>
-                                        <h4>Ullamco laboris ladore pan</h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                        <h4>Generate Insights</h4>
+                                        <p> Our expertise in spatial analysis will help you form a compelling narrative, both relevant to your business and drawn from actionable insight.</p>
                                     </div>
                                 </div>
                                  {/*End Icon Box */}
