@@ -24,17 +24,18 @@ const About = () => {
                         <div className="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
                             <div className="content ps-0 ps-lg-5">
                                 <p className="fst-italic">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna aliqua.
+                                    Polardot is a Geospatial and ICT consulting company based in Nairobi, Kenya. We specialize in:
                                 </p>
                                 <ul>
-                                    <li><i className="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                    <li><i className="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                    <li><i className="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                    <li><i className="bi bi-check2-all"></i> Using space technologies for location intelligence</li>
+                                    <li><i className="bi bi-check2-all"></i> Location data analytics.</li>
+                                    <li><i className="bi bi-check2-all"></i> Mapping.</li>
+                                    <li><i className="bi bi-check2-all"></i> Photogrammetry.</li>
+                                    <li><i className="bi bi-check2-all"></i> Remote sensing.</li>
+                                    <li><i className="bi bi-check2-all"></i> Cloud-based geospatial software development.</li>
                                 </ul>
                                 <p>
-                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                                    We are a team of Geospatial Information Systems (GIS) analysts and Software Engineers. We solve complex problems for businesses and organizations at scale using location data.
                                 </p>
 
                                 <div className="position-relative mt-4">
