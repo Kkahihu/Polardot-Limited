@@ -1,4 +1,5 @@
 import React from 'react';
+import Photogrammetry from '../../assests/img/img/1370.png'
 
 const Products = () => {
     return (
@@ -14,7 +15,7 @@ const Products = () => {
                    <div className="row gy-4 align-items-center features-item" data-aos="fade-up">
 
                        <div className="col-md-5">
-                           <img src="assets/img/features-1.jpg" className="img-fluid" alt="" />
+                           <img src={Photogrammetry} className="img-fluid" alt="" />
                        </div>
                        <div className="col-md-7">
                            <h3>Polardot Photogrammetry</h3>
