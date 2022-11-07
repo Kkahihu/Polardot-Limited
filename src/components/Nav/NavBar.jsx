@@ -9,6 +9,7 @@ const NavBar = () => {
             <header id="header" className="header fixed-top d-flex align-items-center">
                 <div className="container d-flex align-items-center justify-content-between">
 
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a href="#" className="logo d-flex align-items-center me-auto me-lg-0">
                          {/*Uncomment the line below if you also wish to use an image logo */}
                         <img src={Logo} className="img-fluid" alt="Polardot Logo" />
