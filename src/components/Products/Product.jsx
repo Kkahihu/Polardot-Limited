@@ -28,9 +28,9 @@ const Products = () => {
                                <li><i className="bi bi-check"></i> Complete control over your project.</li>
                                <li><i className="bi bi-check"></i> Share Results Instantly.</li>
                            </ul>
-                           <div className="text-center">
+                           <div className="text-end">
                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                               <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
+                               <a href="#" className="btn-book-a-table">Learn More <i className="bx bx-chevron-right"></i></a>
                            </div>
                        </div>
                    </div>
@@ -51,6 +51,11 @@ const Products = () => {
                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                culpa qui officia deserunt mollit anim id est laborum
                            </p>
+
+                           <div className="text-start">
+                               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                               <a href="#" className="btn-book-a-table">Learn More <i className="bx bx-chevron-right"></i></a>
+                           </div>
                        </div>
                    </div>
                      {/*Features Item */}
@@ -67,6 +72,11 @@ const Products = () => {
                                <li><i className="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
                                <li><i className="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
                            </ul>
+
+                           <div className="text-end">
+                               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                               <a href="#" className="btn-book-a-table">Learn More <i className="bx bx-chevron-right"></i></a>
+                           </div>
                        </div>
                    </div>
                         {/*Features Item */}
