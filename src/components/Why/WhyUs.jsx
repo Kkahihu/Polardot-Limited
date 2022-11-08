@@ -47,8 +47,8 @@ const WhyUS = () => {
                                 <div className="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                                     <div className="icon-box d-flex flex-column justify-content-center align-items-center">
                                         <i className="bi bi-inboxes"></i>
-                                        <h4>Labore consequatur incidid dolore</h4>
-                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                        <h4>Our Natural Language</h4>
+                                        <p>Our team has extensive academic and practical knowledge in the principles of measurement, spatial analysis and map projections.</p>
                                     </div>
                                 </div>
                                  {/*End Icon Box*/}
