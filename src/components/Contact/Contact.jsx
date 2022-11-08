@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <>
                      {/*Contact Section */}
-            <section id="contact" className="contact">
+            <section id="contact" className="contact section-bg">
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-header">
