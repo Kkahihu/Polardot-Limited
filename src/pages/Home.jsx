@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Contact from "../components/Contact/Contact";
 import Services from "../components/Services/Services";
 import Product from "../components/Products/Product";
+import Clients from "../components/Clients/Clients";
 
 const Home = () => {
 
@@ -27,6 +28,7 @@ const Home = () => {
            <main id='main'>
                <About />
                <WhyUS />
+               <Clients />
                <Services />
                <Product />
                <Contact />
