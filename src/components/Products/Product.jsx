@@ -1,5 +1,6 @@
 import React from 'react';
 import Photogrammetry from '../../assests/img/img/1370.png'
+import survey from '../../assests/img/img/tabs-4_front.png';
 
 const Products = () => {
     return (
@@ -30,7 +31,7 @@ const Products = () => {
                            </ul>
                            <div className="text-end">
                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                               <a href="#" className="btn-book-a-table">Learn More <i className="bx bx-chevron-right"></i></a>
+                               <a href='https://www.polardot.co.ke/' className="btn-book-a-table">Learn More <i className="bx bx-chevron-right"></i></a>
                            </div>
                        </div>
                    </div>
@@ -38,10 +39,10 @@ const Products = () => {
 
                    <div className="row gy-4 align-items-center features-item" data-aos="fade-up">
                        <div className="col-md-5 order-1 order-md-2">
-                           <img src="assets/img/features-2.jpg" className="img-fluid" alt="" />
+                           <img src={survey} className="img-fluid" alt="" />
                        </div>
                        <div className="col-md-7 order-2 order-md-1">
-                           <h3>Polardot Photogrammetry</h3>
+                           <h3>Polardot 3D Survey Pro</h3>
                            <p className="fst-italic">
                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                                magna aliqua.
